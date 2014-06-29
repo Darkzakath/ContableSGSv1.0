@@ -1,0 +1,15 @@
+
+Para sacar los prefijos para efectos de los exploradores:
+http://leaverou.github.io/prefixfree/
+
+
+Para crear font personalizadas con los iconos
+http://icomoon.io/
+
+
+Para poder tener los links de las fonts de google
+https://www.google.com/fonts
+
+
+Para poder bajar fonts y subirlas al servidor
+http://www.fontsquirrel.com/
