@@ -13,3 +13,7 @@ https://www.google.com/fonts
 
 Para poder bajar fonts y subirlas al servidor
 http://www.fontsquirrel.com/
+
+
+Material que encontre por ahi para fortalecer un poco mas lo ya visto
+http://www.mclibre.org/
