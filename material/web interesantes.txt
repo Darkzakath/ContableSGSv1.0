@@ -17,3 +17,6 @@ http://www.fontsquirrel.com/
 
 Material que encontre por ahi para fortalecer un poco mas lo ya visto
 http://www.mclibre.org/
+
+Framework Bootstrap para poder tener responsive desing y demas... 
+http://getbootstrap.com/getting-started/#download
