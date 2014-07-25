@@ -45,7 +45,7 @@
  				<a href="#">Notificaciones</a>
  			</li>
  			<li id="menu_nav">
- 				<a href="#">menu</a>
+ 				<a href="#">Menú</a>
  			</li>
  		</ul>
  	</nav>
@@ -59,7 +59,7 @@
  					<a href="#">Estudio Contable - Datos</a>
  				</li>
  				<li>
- 					<a href="#">Impresion de Boletas</a>
+ 					<a href="#">Impresión de Boletas</a>
  				</li>
  				<li>
  					<a href="#">Escala Salarial - Sector Obra</a>
