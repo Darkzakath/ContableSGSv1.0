@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Pagina Principal del login-->
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="Admiistración contable del Sindicato Grafico Sureño" />
