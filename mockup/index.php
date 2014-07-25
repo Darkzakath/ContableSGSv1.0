@@ -7,15 +7,20 @@
 	<title>Sindicato Grafico Sureño: Gestión</title>
 
 	<link rel="stylesheet" href="../librerias/css/normalize.css">
+	<link rel="stylesheet" href="../librerias/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="../librerias/css/bootstrap-theme.css.map">
+	<link rel="stylesheet" href="../librerias/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../librerias/css/bootstrap.css">
+	<link rel="stylesheet" href="../librerias/css/bootstrap.css.map">
+	<link rel="stylesheet" href="../librerias/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../estilos/media.css">
 	<link rel="stylesheet" href="../estilos/main.css">
 
 	<script src="../librerias/js/prefixfree.js"></script>
-	<script src="../librerias/js/bootstrap.min.js"></script>
-	<script src="../librerias/js/bootstrap.js"></script>
+	
 </head>
 <body>
- 	<header>
+ 	<header class="row">
  		<figure id="avatar">
  			<img src="#" />
  		</figure>
@@ -36,7 +41,7 @@
  			<a href="#">Contacto</a>
  		</div>
  	</header>
- 	<nav>
+ 	<nav class="navbar-collapse collapse">
  		<ul>
  			<li id="inicio">
  				<a href="#">SGS</a>
@@ -102,5 +107,8 @@
  		<p>Power by Molleja&Zeke</p>
  		<p>Sindicato Grafico Sureño - 2014</p>
  	</footer>
+
+ 	<script src="../librerias/js/bootstrap.min.js"></script>
+	<script src="../librerias/js/bootstrap.js"></script>
 </body>
 </html>
