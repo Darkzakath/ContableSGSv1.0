@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 	<title>Sindicato Grafico Sureño: Gestión</title>
 
-	<link rel="stylesheet" href="../librerias/css/normalize.css">
+	<link rel="stylesheet" href="../librerias/css/normalize.css"><!--Regula el css en todos los exploradores-->
 	<link rel="stylesheet" href="../librerias/css/bootstrap-theme.css">
 	<link rel="stylesheet" href="../librerias/css/bootstrap-theme.css.map">
 	<link rel="stylesheet" href="../librerias/css/bootstrap-theme.min.css">
@@ -24,8 +24,11 @@
  		<figure id="avatar">
  			<img src="#" />
  		</figure>
- 		<!-- Se muestra al hacer click sobre el avatar =)-->
- 		<div class="datos">
+ 		<h1>
+ 			Micro-Envases S.A.
+ 		</h1>
+ 		<div class="datos">O
+ 			<!--El menú se muestra al hacer click sobre el icono "datos" -->
  			<ul>
  				<li>Nombre</li>
  				<li>Cuit</li>
@@ -34,17 +37,13 @@
  				<li>E-mail</li>
  			</ul>
  		</div>
- 		<h1>
- 			Micro-Envases S.A.
- 		</h1>
- 		<div class="contacto">
- 			<a href="#">Contacto</a>
- 		</div>
+ 		<!-- Hacer click en el logo te lleva a la pagina de inicio -->
+ 		<figure id="logo">
+ 			<a href="#"><img src="../imagenes/sgs-logo.png" /></a>
+ 		</figure>
  	</header>
  	<nav class="navbar-collapse collapse">
  		<ul>
- 			<li id="inicio">
- 				<a href="#">SGS</a>
  			</li>
  			<li id="notificacion_nav">
  				<a href="#">Notificaciones</a>
@@ -52,6 +51,8 @@
  			<li id="menu_nav">
  				<a href="#">Menú</a>
  			</li>
+ 			<li id="contacto_nav">
+ 				<a href="#">Contacto</a>
  		</ul>
  	</nav>
  	<section>
@@ -83,12 +84,6 @@
  				</li>
  				<li>
  					<a href="#">Historial de Bolestas</a>
- 				</li>
- 				<li>
- 					<a href="#"></a>
- 				</li>
- 				<li>
- 					<a href="#"></a>
  				</li>
  				<li>
  					<a href="#">Tutorial</a>
