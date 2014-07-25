@@ -11,13 +11,15 @@
 	<link rel="stylesheet" href="../estilos/main.css">
 
 	<script src="../librerias/js/prefixfree.js"></script>
+	<script src="../librerias/js/bootstrap.min.js"></script>
+	<script src="../librerias/js/bootstrap.js"></script>
 </head>
 <body>
  	<header>
  		<figure id="avatar">
  			<img src="#" />
  		</figure>
- 		<!-- Se muestra al hacer click sobre el avatar -->
+ 		<!-- Se muestra al hacer click sobre el avatar =)-->
  		<div class="datos">
  			<ul>
  				<li>Nombre</li>
@@ -72,7 +74,7 @@
  					<a href="#">Horas Exedentes</a>
  				</li>
  				<li>
- 					<a href="#">Ospida (Obra Social)</a>
+ 					<a href="#">Ospida - Obra Social</a>
  				</li>
  				<li>
  					<a href="#">Historial de Bolestas</a>
