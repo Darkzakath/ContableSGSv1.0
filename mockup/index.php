@@ -21,42 +21,34 @@
 </head>
 <body>
  	<header class="row">
- 		<figure id="avatar">
- 			<img src="#" />
- 		</figure>
- 		<h1>
- 			Micro-Envases S.A.
- 		</h1>
- 		<div class="datos">O
- 			<!--El menú se muestra al hacer click sobre el icono "datos" -->
- 			<ul>
- 				<li>Nombre</li>
- 				<li>Cuit</li>
- 				<li>Dirección</li>
- 				<li>Telefono</li>
- 				<li>E-mail</li>
- 			</ul>
- 		</div>
- 		<!-- Hacer click en el logo te lleva a la pagina de inicio -->
  		<figure id="logo">
- 			<a href="#"><img src="../imagenes/sgs-logo.png" /></a>
+ 			<img src="../imagenes/sgs-logo.png" />
  		</figure>
+ 		<!-- Hacer click en el logo te lleva a la pagina de inicio -->
+ 		<div class="contacto">
+ 			<a href="#">Contacto</a>
+ 		</div>
  	</header>
  	<nav class="navbar-collapse collapse">
- 		<ul>
+ 		<ul claas="nav nav-justified">
+ 			<li>
+ 				<figure id="avatar">
+		 			<img src="#" /> 
+		 		</figure>
+ 				<ul id="edit-datos" class="no-visible">
+ 					<li>Nombre</li>
+	 				<li>Cuit</li>
+	 				<li>Dirección</li>
+	 				<li>Telefono</li>
+	 				<li>E-mail</li>
+ 				</ul>
  			</li>
- 			<li id="notificacion_nav">
- 				<a href="#">Notificaciones</a>
- 			</li>
- 			<li id="menu_nav">
- 				<a href="#">Menú</a>
- 			</li>
- 			<li id="contacto_nav">
- 				<a href="#">Contacto</a>
+ 			<li>Anuncios y Notificaciones</li>
+ 			<li>Menú</li>
  		</ul>
  	</nav>
  	<section>
- 		<article class="submenu">
+ 		<article id="submenu" class="no-visible">
  			<ul>
  				<li>
  					<a href="#">Nomina de Trabajadores</a>
