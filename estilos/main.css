@@ -10,40 +10,33 @@ body
 }
 header
 {
-	border: 1px solid red;
-	background: #0066cc 
+	background: #0066cc; 
 	color: white;
-	padding: 0.5em;
 }
 header figure
 {
 	float: left;
-}
-header h1
-{
-	border: 1px solid red;
-	font-size: 1.3em;
-	font-weight: normal;
-	padding-left: 2em;
-	margin: 13px 65px 0 0;
-}
-header #avatar img
-{
-/* La imagen tiene que ser de 110px por la retina display */
-	border-radius: 20%;
-	width: 55px;
-} 
-header .datos ul
-{
-	float: left;
-	background: #dde3e6;
-	color: #000;
 }
 header #logo
 {
 	position: absolute;
 	right: 10px;
 	top: 0;
-	border-radius: 40%;
-	width: 40px;
+	border-radius: 25%;
+	width: 146.5px;
+}
+
+/**.no-visible
+{
+	visibility: hidden;
+}
+.visible
+{
+	visibility: visible;
+}**/
+#edit-datos
+{
+	float: left;
+	background: #dde3e6;
+	color: #000;
 }
