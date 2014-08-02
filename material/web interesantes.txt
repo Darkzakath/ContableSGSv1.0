@@ -20,3 +20,6 @@ http://www.mclibre.org/
 
 Framework Bootstrap para poder tener responsive desing y demas... 
 http://getbootstrap.com/getting-started/#download
+
+Pagina para usar Bootstrap en castellano
+http://librosweb.es/bootstrap_3/capitulo_2.html
