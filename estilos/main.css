@@ -1,31 +1,53 @@
 a 
 {
 	color: #fff;
+	text-decoration: none;
 }
 body
 {
 	background: #008fd5;
 	font-family: Arial;
 	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
 }
 header
 {
 	background: #0066cc; 
 	color: white;
+	overflow: hidden;
 }
 header figure
 {
 	float: left;
+	margin: 0.2em 0 0.2em 1.6em;
 }
-header #logo
+ul
 {
-	position: absolute;
-	right: 10px;
-	top: 0;
-	border-radius: 25%;
-	width: 146.5px;
+	margin: 0;
 }
-
+header div
+{
+	float: right;
+	background: #283c48;
+	border-radius: 0.4em;
+	box-shadow: rgba(0,0,0,0.9) 5px 5px 20px;
+	padding: 0.6em 0.8em;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	margin: 1em 2em 0 0;
+}
+header figure img
+{
+	border-radius: 0.2em;
+	width: 70%
+}
+nav
+{
+	background: #283c48;
+}
+nav ul li figure
+{
+	margin: 0;
+}
 /**.no-visible
 {
 	visibility: hidden;
@@ -33,10 +55,8 @@ header #logo
 .visible
 {
 	visibility: visible;
-}**/
+} **/
 #edit-datos
 {
-	float: left;
-	background: #dde3e6;
 	color: #000;
 }
