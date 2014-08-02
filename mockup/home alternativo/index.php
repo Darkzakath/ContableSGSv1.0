@@ -7,6 +7,7 @@
 	<!--title>Sindicato Grafico Sureño: Gestión</title-->
 
 	<link rel="stylesheet" type="text/css" href="../../librerias/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../estilos/main-molleja.css">
 	<script type="text/javascript" src="../../librerias/js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="../../librerias/js/bootstrap.min.js"></script>
 	
@@ -42,15 +43,22 @@
  	<section>
  		<article>
  			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav">
 	 				<li>
 	 					<a href="#">Nomina de Trabajadores</a>
 	 				</li>
 	 				<li>
 	 					<a href="#">Estudio Contable - Datos</a>
 	 				</li>
-	 				<li>
-	 					<a href="#">Impresión de Boletas</a>
+	 				<li class="dropdown">
+	 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		 					Boletas
+		 					<b class="caret"></b>
+	 					</a>
+	 					<ul class="dropdown-menu">
+	 						<li><a href="#">Impresión</a></li>
+	 						<li><a href="#">Historial</a></li>
+	 					</ul>
 	 				</li>
 	 				<li class="dropdown">
 	 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -68,9 +76,6 @@
 	 				</li>
 	 				<li>
 	 					<a href="#">Ospida - Obra Social</a>
-	 				</li>
-	 				<li>
-	 					<a href="#">Historial de Bolestas</a>
 	 				</li>
 	 				<li>
 	 					<a href="#">Tutorial</a>
