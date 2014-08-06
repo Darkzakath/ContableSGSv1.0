@@ -1,0 +1,13 @@
+Proyecto
+|- vendor/librerias
+|	L bootstrap
+|	L normalize
+|	L jquery
+|- img
+|	* varia segun las secciones que se hagan
+|- js
+|- css
+|- etc/material 
+|- asset/mockup/template
+|
+index.php
