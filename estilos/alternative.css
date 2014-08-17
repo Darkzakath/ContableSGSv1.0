@@ -1,0 +1,45 @@
+a 
+{
+	color: black;
+	text-decoration: none;
+}
+body
+{
+	background: white;
+	font-family: Arial;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+header
+{
+	overflow: hidden;
+}
+.Header-logo
+{
+	float: left;
+	margin: 0.2em 0 0.2em 1.6em;
+}
+.Header-tutorial, .Header-contacto
+{
+	float: right;
+	background: #283c48;
+	border-radius: 0.4em;
+	box-shadow: rgba(0,0,0,0.9) 5px 5px 20px;
+	padding: 0.6em 0.8em;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	margin: 1em 2em 0 0;
+}
+header figure img
+{
+	border-radius: 0.2em;
+	width: 70%;
+}
+.Nav
+{
+	background-color: #004dff;
+	border: 1px solid grey;
+}
+/** nav div li
+{
+	display: inline-block;
+} **/

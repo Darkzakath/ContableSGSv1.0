@@ -1,31 +1,26 @@
 a 
 {
-	color: #fff;
+	color: black;
 	text-decoration: none;
 }
 body
 {
-	background: #008fd5;
+	background: white;
 	font-family: Arial;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 }
-header
+.Header
 {
-	background: #0066cc; 
-	color: white;
+	background: white; 
 	overflow: hidden;
 }
-header figure
+.Header-logo
 {
 	float: left;
 	margin: 0.2em 0 0.2em 1.6em;
 }
-ul
-{
-	margin: 0;
-}
-header div
+.Header-tutorial, .Header-contacto
 {
 	float: right;
 	background: #283c48;
@@ -35,28 +30,72 @@ header div
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 	margin: 1em 2em 0 0;
 }
-header figure img
+.Header-logoSgs
 {
 	border-radius: 0.2em;
 	width: 70%
 }
-nav
+.Navbar
 {
-	background: #283c48;
+	background: #004dff;
 }
-nav ul li figure
+li
 {
-	margin: 0;
+	display: inline-block
 }
-/**.no-visible
-{
-	visibility: hidden;
+ul 
+{ 
+	list-style-type: none;
 }
-.visible
+ul li .Menu-desplegable 
+{ 
+	float: left;
+	width: 162px;
+	margin-right: 2px;
+}
+ul li a 
 {
-	visibility: visible;
-} **/
-#edit-datos
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #666;
+	border: solid 1px #fff;
+	padding: 8px;
+	position: relative;
+}
+ul li:hover 
 {
+	position: relative;
+}
+ul li a:hover, #menu ul li:hover a.Menu-desplegable 
+{
+	background-color: #888;
 	color: #000;
+	position: relative;
+}
+ul li a.Menu-desplegable 
+{
+	display: block!important;
+	display: none;
+	position: relative;
+}
+ul li ul 
+{
+	display: none;
+}
+ul li a:hover ul, #menu ul li:hover ul 
+{
+	display: block;
+	position: absolute;left: 0px;
+}
+ul li ul li a 
+{
+	width: 160px;
+	padding: 6px 0px 8px 0px;
+	border-top-color: #000;
+}
+ul li ul li a:hover 
+{
+	border-top-color: #000;
+	position: relative;
 }
