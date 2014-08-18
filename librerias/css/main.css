@@ -10,27 +10,37 @@ h1 {
     margin: 40px 0;
     text-shadow: 0 3px 1px hsl(0,0%,100%);
 }
-.Header{
+.Header 
+{
     background: #004dff;
+    margin: 0em;
+    color: white;
 }
 .Header-logo
 {
-    float: left;
-    margin: 0.2em 0 0.2em 1.6em;
+    margin: 0em;
+    padding: 0.2em 0em 0em 1.5em;
 }
 .Header-tutorial, .Header-contacto
 {
-    float: right;
-    background: #283c48;
-    border-radius: 0.4em;
+    background: white;
+    min-width: 6em;
+    max-width: 6em;
+    padding: 10px 0;
+    margin: 2px;
+    box-shadow: 0 1px 3px hsla(0,0%,0%,0.5);
+    display: block;
     box-shadow: rgba(0,0,0,0.9) 5px 5px 20px;
-    padding: 0.6em 0.8em;
     text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
-    margin: 1em 2em 0 0;
+    text-align: center;
+}
+.Header a
+{
+    color: #004dff;
 }
 .Header-logoSgs
 {
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     width: 8em;
 }
 nav 
@@ -48,7 +58,7 @@ nav > ul > li {
 }
 nav ul li a {
     background: #004dff;
-    min-width: 160px;
+    min-width: 8em;
     padding: 10px 0;
     margin: 2px;
     color: hsl(0,0%,100%);
